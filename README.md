@@ -1,4 +1,4 @@
-# kz-tree-manager
+# kz-tree
 
 > element-ui Tree组件扩展无限级分类管理实例
 

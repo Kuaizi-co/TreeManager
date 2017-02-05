@@ -17,7 +17,7 @@
     <!--dialog-->
     <el-dialog :title="dialog.title" v-model="dialog.visible" :close-on-click-modal="false">
       <el-form :model="dialog.form" ref="dialogForm" :rules="dialog.rules" class="el-col-offset-4">
-        <el-form-item label="标签名称" prop="name" label-width="120" required>
+        <el-form-item label="分类名称" prop="name" label-width="120" required>
           <el-input v-model="dialog.form.name" auto-complete="off" class="el-col-12"></el-input>
         </el-form-item>
       </el-form>
